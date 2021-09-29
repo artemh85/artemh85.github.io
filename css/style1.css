@@ -1,0 +1,44 @@
+html{
+    height: 100vh; /*высота области html - vh область отображения браузера*/
+    
+}
+body{
+    min-height: 50vh; /* область отображения тега боди, с помощью  тега можно задать высоту отображаемой области на экране*/
+}
+.container{
+    height: 80vh; /* определяет высоту дивки в видимой области*/
+}
+.ssylki{ /* дивка ссылок перехода*/
+    text-align: right;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+.search-form{ /*дивка формы поиска*/
+    display: flex; /* отображение дивки */
+    vertical-align: middle;/*вырвнивание дивки по вертикали */
+    align-items: center; /*выравнивание элементов содержимого дивки по центру*/
+    text-align: center; /*выравнивание текста в дивке по центру*/
+    justify-content: center; /*justify-content определяет, как браузер распределяет пространство между и вокруг элементов контента вдоль главной оси flex*/
+    flex-direction: column; /*как располагаются главная ось row=горизонтально column=вертикально*/
+    height: 100%;
+    }
+.line{
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 15px;
+    font-size: 16px;
+    min-width: 300px; /*мин. ширина элемента. для увеличения ширины и сохранения выравнивания использовать рх или см а не %. % растягивает элемент от начала в право*/
+    padding: 5px;
+    margin: 5px;
+}
+.line:hover{
+    border: 1px solid rgb(197, 197, 197);
+    box-shadow: 5px 5px 5px rgb(92, 92, 92);
+}   
+.line:focus-visible{
+    outline: none; 
+}
+.knopki{
+    margin: 5px;
+}
