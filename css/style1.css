@@ -41,4 +41,9 @@ body{
 }
 .knopki{
     margin: 5px;
+    border-color: rgb(197, 197, 197);
+    border-radius: 5px;
+}
+.knopki:hover{
+    border: solid 2px rgb(153, 153, 153);
 }
