@@ -5,6 +5,16 @@ html{
 body{
     min-height: 50vh; /* область отображения тега боди, с помощью  тега можно задать высоту отображаемой области на экране*/
 }
+table,tr,td{
+    border-collapse: collapse ;
+}
+hr{
+    border: 1px solid rgb(230, 230, 230);
+}
+h1{
+    font-family: sans-serif;
+    color:darkred;
+}
 .container{
     height: 80vh; /* определяет высоту дивки в видимой области*/
 }
@@ -43,7 +53,37 @@ body{
     margin: 5px;
     border-color: rgb(197, 197, 197);
     border-radius: 5px;
+    background-color: blue;
+    color:white;
 }
 .knopki:hover{
-    border: solid 2px rgb(153, 153, 153);
+    border: solid 2px rgb(161, 161, 161);    
+}
+.line_adv{
+    border: 1px solid rgb(197, 197, 197);
+    font-size: 16px;
+    min-width: 300px; /*мин. ширина элемента. для увеличения ширины и сохранения выравнивания использовать рх или см а не %. % растягивает элемент от начала в право*/
+    padding: 5px;
+    margin: 5px;
+}
+.line_adv:focus-visible{
+    outline: none;
+}
+/*.main
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-align: bottom;
+}
+.main__item
+{
+  padding: 30px;
+  margin-right: 15px;
+}*/
+.texttd{
+    font-size: 12px;
+    font-family: sans-serif;
+    vertical-align: bottom;
+    padding-bottom: 5px;
 }
